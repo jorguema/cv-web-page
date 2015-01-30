@@ -1,0 +1,26 @@
+{
+  "name": "cv-web-page",
+  "version": "1.0.0",
+  "description": "cv web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jorguema/cv-web-page.git"
+  },
+  "author": "Jorge Guerola Martínez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorguema/cv-web-page/issues"
+  },
+  "homepage": "https://github.com/jorguema/cv-web-page"
+}
