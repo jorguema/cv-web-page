@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 3030));
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(request, response) {
-    response.send('Hello World!');
+    response.send('Hello World Automatic deploys from GitHub!');
 });
 
 app.listen(app.get('port'), function() {
