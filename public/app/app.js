@@ -16,7 +16,7 @@
         //'bpRangeSlider',
         //
         ////3rd Party modules
-        //'pascalprecht.translate',
+        'pascalprecht.translate',
         'ui.router'
         //'wu.masonry',
         //'LocalStorageModule',

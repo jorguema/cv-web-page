@@ -5,4 +5,7 @@ My own currículum vítae web page.
     - Express
     - AngularJS
     - Jade
+    - Less
+    - Bower
+    - Grunt
 
