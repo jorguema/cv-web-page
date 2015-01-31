@@ -2,9 +2,8 @@
     'use strict';
 
     var controllerId = 'testCtrl';
-    angular.module('app').controller(controllerId, ['$scope', loginCtrl]);
+    angular.module('app').controller(controllerId, ['$scope', testCtrl]);
 
-    function loginCtrl($scope) {
-        $scope.hello = "hello CTRL :D";
+    function testCtrl($scope) {
     }
 })();

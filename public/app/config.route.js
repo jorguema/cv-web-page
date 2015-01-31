@@ -9,25 +9,23 @@
     //Configure the routes and route resolvers
     app.config(['$stateProvider', '$urlRouterProvider', routeConfigurator]);
 
-    function routeConfigurator($stateProvider, $urlRouterProvider, routes) {
+    function routeConfigurator($stateProvider, $urlRouterProvider) {
 
         var baseURL = "partials/";
 
-        $urlRouterProvider.otherwise("/");
+        $urlRouterProvider.otherwise("/404");
         $stateProvider
             .state('404', {
                 url: '/404',
                 templateUrl: baseURL + "commons/404/404"
             })
-            //.state('app', {
-            //    url: '/app',
-            //    abstract: true,
-            //    templateUrl: baseURL + "commons/structure/structure"
-            //})
-            //.state('app.test', {
-                .state('test', {
-                //url: '^/test',
-                url: '/test',
+            .state('app', {
+                url: '/app',
+                abstract: true,
+                templateUrl: baseURL + "commons/structure/structure"
+            })
+            .state('app.test', {
+                url: '^/',
                 templateUrl: baseURL + "test/test"
             });
     }
