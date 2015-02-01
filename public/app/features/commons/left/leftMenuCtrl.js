@@ -8,7 +8,14 @@
     angular.module('app').controller(controllerId, ['$scope', '$state',leftMenuCtrl]);
 
     function leftMenuCtrl($scope, $state) {
-        $scope.optionSelected = 'about';
+        
+        switch($state.current.name){
+            case 'app.about' :  {$scope.optionSelected = 'about'; break;}
+            case 'app.resume' :  {$scope.optionSelected = 'resume'; break;}
+            case 'app.experience' :  {$scope.optionSelected = 'experience'; break;}
+            case 'app.contact' :  {$scope.optionSelected = 'contact'; break;}
+            default: break;
+        };
 
         $scope.about = function() {
             $scope.optionSelected = 'about';

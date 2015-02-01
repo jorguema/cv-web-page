@@ -47,6 +47,28 @@
                 COMPLEMENTARY_EDUCATION_2_DESCRIPTION_3:'- Leadership',
                 COMPLEMENTARY_EDUCATION_2_DESCRIPTION_4:'- Business opportunities',
 
+                //EXPERIENCE
+                EXPERIENCE_SECTION:'Experience',
+                GEMBIOSOFT: 'Gembiosoft SME',
+                GEMBIOSOFT_DATE :'Sep 2012 - Mar 2013',
+                GEMBIOSOFT_ROLE: 'Software developer',
+                GEMBIOSOFT_DESCRIPTION:'Company specialized in the genomic area, my work was focused on the integration of genomic information from multiple repositories in a single information system and the development of a tool for genetic analysis.',
+                FE: 'La Fe Hospital',
+                FE_DATE :'Mar 2013 - Jun 2013',
+                FE_ROLE: 'Analyst and software developer',
+                FE_DESCRIPTION:'Design and creation of an information system for neuroblastoma, a childhood tumor, using an ETL strategy for data integration and implementation of a web application in order to exploit information.',
+                PROS: 'Polytechnic University of Valencia',
+                PROS_DATE :'Jul 2013 - Dec 2013',
+                PROS_ROLE: 'Analyst and software developer',
+                PROS_DESCRIPTION:'DSIC/PROS Department focused on the study of the following areas:',
+                MONKEYS: 'A Million Monkeys',
+                MONKEYS_DATE :'Dec 2013 - Present',
+                MONKEYS_ROLE: 'Full stack developer',
+                MONKEYS_DESCRIPTION:'DSIC/PROS Department focused on the study of the following areas:',
+                BANDPOINTER: 'Content Pointers SL',
+                BANDPOINTER_DATE :'Mar 2014 - Jan 2015',
+                BANDPOINTER_ROLE: 'Co-founder',
+                BANDPOINTER_DESCRIPTION:'DSIC/PROS Department focused on the study of the following areas:',
 
                 //TEST
                 hello : 'Hi (EN)'

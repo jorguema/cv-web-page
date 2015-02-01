@@ -58,47 +58,61 @@
 #right-content {
   background: white;
 }
-.resume-info {
-  border-left: 2px solid green;
+#about-section .resume-info {
+  border-left: 2px solid green !important;
   padding-left: 15px;
 }
-#about-section {
+#about-section,
+#experience-section {
   padding: 0px 30px 0px 30px;
 }
-#about-section .resume-specific-section {
+#about-section .resume-specific-section,
+#experience-section .resume-specific-section {
   margin-top: 20px;
 }
-#about-section .header {
+#about-section .header,
+#experience-section .header {
   background: #434b51;
   color: #fff;
   padding: 2px 15px 2px 15px;
   margin: 0px;
 }
-#about-section .resume-category {
+#about-section .resume-category,
+#experience-section .resume-category {
   padding: 20px 0px 15px 0px;
 }
-#about-section .separator {
+#about-section .separator,
+#experience-section .separator {
   border-bottom: 1px solid #ebebeb;
   height: 20px;
   margin-bottom: 20px;
 }
-#about-section .resume-info {
+#about-section .resume-info,
+#experience-section .resume-info {
   border-left: 2px solid #53b7f9;
   padding-left: 15px;
 }
-#about-section .resume-info .date {
+#about-section .resume-info .date,
+#experience-section .resume-info .date {
   float: right;
   margin-bottom: 0px;
 }
-#about-section .resume-info h4 {
+#about-section .resume-info h4,
+#experience-section .resume-info h4 {
   margin-bottom: 9px;
   margin-top: 0px;
 }
-#about-section .resume-info .description {
+#about-section .resume-info .description,
+#experience-section .resume-info .description {
   margin-bottom: 0px;
 }
-#about-section .resume-info h5 {
+#about-section .resume-info h5,
+#experience-section .resume-info h5 {
   margin-top: 0px;
+}
+#experience-section .resume-info {
+  border-left: 2px solid red !important;
+  padding-left: 15px;
 }
 body {
   background-color: #E5E5E5;
