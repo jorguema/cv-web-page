@@ -1,0 +1,20 @@
+#left-content {
+  background: #2b2b2b;
+  height: 100%;
+}
+#left-content .profile-img {
+  text-align: center;
+}
+#left-content .title {
+  text-align: center;
+  color: white;
+}
+#left-content .menu-left ul {
+  padding: 0px;
+}
+#left-content .menu-left li {
+  display: block;
+}
+#left-content .menu-left li .image-section {
+  float: left;
+}

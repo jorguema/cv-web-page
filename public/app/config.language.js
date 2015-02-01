@@ -13,6 +13,12 @@
         .translations('en', {
                 COLON: ':',
 
+                //MENU-LEFT
+                ABOUT_ME: 'About me',
+                RESUME: 'Resume',
+                EXPERIENCE: 'Experience',
+                CONTACT : 'Contact',
+
                 //TEST
                 hello : 'Hi (EN)'
         });

@@ -1,5 +1,15 @@
 //
    Created by Jorge on 1/31/2015.
+
+//div(data-ng-include="'/public/app/features/commons/header/header.html'")
+//div.container#content(data-ui-view="")
+//div(data-ng-include="'/public/app/features/commons/footer/footer.html'")
+
 div(data-ng-include="'/public/app/features/commons/header/header.html'")
-div.container#content(data-ui-view="")
-div(data-ng-include="'/public/app/features/commons/footer/footer.html'")
+div.container
+   div.row
+      div.col-xs-4
+         div(data-ng-include="'/public/app/features/commons/left/leftMenu.html'")
+      div.col-xs-8
+         div(data-ng-include="'/public/app/features/commons/right/rightMenu.html'")
+         div(data-ng-include="'/public/app/features/commons/footer/footer.html'")

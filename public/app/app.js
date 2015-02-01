@@ -26,15 +26,5 @@
     ]);
 
     app.run(['$rootScope', '$location',function($rootScope, $location){
-        //authSvc.setAuthorizationHeader();
-        //
-        //$rootScope.$on("$stateChangeStart", function (e, next, s, fromState, fromParams) {
-        //
-        //    if (authSvc.isLogged()) {
-        //        if ($location.path() == "/login") {
-        //            $location.path("/");
-        //        }
-        //    }
-        //});
     }]);
 })();

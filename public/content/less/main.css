@@ -1,0 +1,52 @@
+#header-section {
+  background-color: #10353d;
+}
+#header-section .testcolor {
+  color: red;
+}
+#left-content {
+  background: #2b2b2b;
+  height: 100%;
+}
+#left-content .profile-img {
+  text-align: center;
+}
+#left-content .title {
+  text-align: center;
+  color: white;
+}
+#left-content .menu-left ul {
+  padding: 0px;
+}
+#left-content .menu-left li {
+  display: block;
+}
+#left-content .menu-left li .image-section {
+  float: left;
+}
+#right-content {
+  background: white;
+}
+body {
+  background-color: #E5E5E5;
+}
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+  display: none !important;
+}
+.container {
+  /* Margin/padding copied from Bootstrap */
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  /* Set width to your desired site width */
+  width: 970px !important;
+}
+.clickable {
+  cursor: pointer;
+}

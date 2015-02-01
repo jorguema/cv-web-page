@@ -13,7 +13,8 @@
 
         var baseURL = "partials/";
 
-        $urlRouterProvider.otherwise("/404");
+        $urlRouterProvider.otherwise("/");
+
         $stateProvider
             .state('404', {
                 url: '/404',
@@ -24,9 +25,25 @@
                 abstract: true,
                 templateUrl: baseURL + "commons/structure/structure"
             })
-            .state('app.test', {
+            //.state('app.test', {
+            //    url: '^/',
+            //    templateUrl: baseURL + "test/test"
+            //})
+            .state('app.about', {
                 url: '^/',
-                templateUrl: baseURL + "test/test"
+                templateUrl: baseURL + "about/about"
+            })
+            .state('app.resume', {
+                url: '^/resume',
+                templateUrl: baseURL + "resume/resume"
+            })
+            .state('app.experience', {
+                url: '^/experience',
+                templateUrl: baseURL + "experience/experience"
+            })
+            .state('app.contact', {
+                url: '^/contact',
+                templateUrl: baseURL + "contact/contact"
             });
     }
 
