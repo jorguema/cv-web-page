@@ -15,17 +15,90 @@
   text-align: center;
   color: white;
 }
+#left-content .menu-left {
+  font-size: 16px;
+}
+#left-content .menu-left p {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  margin: 0px;
+  color: #ffffff !important;
+}
 #left-content .menu-left ul {
   padding: 0px;
 }
 #left-content .menu-left li {
   display: block;
+  background: #303030;
+  border-top: 1px solid #373737;
+  border-bottom: 1px solid #2B2B2B;
+  height: 47px;
 }
 #left-content .menu-left li .image-section {
   float: left;
 }
+#left-content .menu-left li .menu-section {
+  -webkit-box-shadow: -3px 0 5px -4px #000000;
+  box-shadow: -3px 0 5px -4px #000000;
+  margin-left: 70px;
+  padding-left: 15px;
+}
+#left-content .image-section {
+  width: 50px;
+  text-align: center;
+}
+#left-content .image-section img {
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+#left-content .resume-clicked {
+  background-color: red !important;
+}
 #right-content {
   background: white;
+}
+.resume-info {
+  border-left: 2px solid green;
+  padding-left: 15px;
+}
+#about-section {
+  padding: 0px 30px 0px 30px;
+}
+#about-section .resume-specific-section {
+  margin-top: 20px;
+}
+#about-section .header {
+  background: #434b51;
+  color: #fff;
+  padding: 2px 15px 2px 15px;
+  margin: 0px;
+}
+#about-section .resume-category {
+  padding: 20px 0px 15px 0px;
+}
+#about-section .separator {
+  border-bottom: 1px solid #ebebeb;
+  height: 20px;
+  margin-bottom: 20px;
+}
+#about-section .resume-info {
+  border-left: 2px solid #53b7f9;
+  padding-left: 15px;
+}
+#about-section .resume-info .date {
+  float: right;
+  margin-bottom: 0px;
+}
+#about-section .resume-info h4 {
+  margin-bottom: 9px;
+  margin-top: 0px;
+}
+#about-section .resume-info .description {
+  margin-bottom: 0px;
+}
+#about-section .resume-info h5 {
+  margin-top: 0px;
 }
 body {
   background-color: #E5E5E5;
@@ -49,4 +122,7 @@ body {
 }
 .clickable {
   cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
 }

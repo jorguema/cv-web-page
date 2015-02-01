@@ -7,27 +7,27 @@ div#left-content(data-ng-controller="leftMenuCtrl")
       h3 Software Developer
    div.menu-left
       ul
-         li
+         li(ng-class="{ 'resume-clicked': optionSelected == 'about' }")
             a.clickable(data-ng-click="about()")
                div.image-section
-                  p image
+                  img(data-ng-src="/public/content/images/about.svg")
                div.menu-section
                   p {{'ABOUT_ME'|translate}}
-         li
+         li(ng-class="{ 'resume-clicked': optionSelected == 'resume' }")
             a.clickable(data-ng-click="resume()")
                div.image-section
-                  p image
+                  img(data-ng-src="/public/content/images/resume.svg")
                div.menu-section
                   p {{'RESUME'|translate}}
-         li
+         li(ng-class="{ 'resume-clicked': optionSelected == 'experience' }")
             a.clickable(data-ng-click="experience()")
                div.image-section
-                  p image
+                  img(data-ng-src="/public/content/images/experience.svg")
                div.menu-section
                   p {{'EXPERIENCE'|translate}}
-         li
+         li(ng-class="{ 'resume-clicked': optionSelected == 'contact' }")
             a.clickable(data-ng-click="contact()")
                div.image-section
-                  p image
+                  img(data-ng-src="/public/content/images/contact.svg")
                div.menu-section
                   p {{'CONTACT'|translate}}
