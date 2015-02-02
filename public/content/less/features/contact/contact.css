@@ -1,0 +1,19 @@
+#contact-section .resume-info {
+  border-left: 2px solid yellow !important;
+}
+#contact-section .contact-info img {
+  height: 20px;
+}
+#contact-section .contact-info .col-xs-11 {
+  padding-left: 0px;
+}
+#contact-section .contact-info h5 {
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+#contact-section .follow-section {
+  text-align: center;
+}
+#contact-section .follow-section img {
+  height: 50px;
+}

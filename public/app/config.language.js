@@ -70,6 +70,17 @@
                 BANDPOINTER_ROLE: 'Co-founder',
                 BANDPOINTER_DESCRIPTION:'DSIC/PROS Department focused on the study of the following areas:',
 
+                //CONTACT
+                CONTACT_INFO_SECTION:'Contact info',
+                CONTACT_PHONE: '+34 605 033 179',
+                CONTACT_ADDRESS:'Valencia, Alaquas, Rector Antonio Sancho Bueno 6, Spain',
+                CONTACT_EMAIL: 'jorguema@gmail.com',
+                CONTACT_SKYPE: 'jorguema',
+                FOLLOW_SECTION:'Follow me',
+                CONTACT_STACKOVERFLOW: 'Stackoverflow',
+                CONTACT_GITHUB:'GitHub',
+                CONTACT_LINKEDIN:'LinkedIn',
+
                 //TEST
                 hello : 'Hi (EN)'
         });
