@@ -1,33 +1,51 @@
 //
    Created by Jorge on 1/31/2015.
 div#left-content(data-ng-controller="leftMenuCtrl")
-   div.profile-img(mm-hexagon-image, url-image="'/public/content/images/me.PNG'")
-   div.title
-      h2 Jorge Guerola Martínez
-      h3 Software Developer
-   div.menu-left
-      ul
-         li(ng-class="{ 'resume-clicked': optionSelected == 'about' }")
-            a.clickable(data-ng-click="about()")
-               div.image-section
-                  img(data-ng-src="/public/content/images/about.svg")
-               div.menu-section
-                  p {{'ABOUT_ME'|translate}}
-         li(ng-class="{ 'resume-clicked': optionSelected == 'resume' }")
-            a.clickable(data-ng-click="resume()")
-               div.image-section
-                  img(data-ng-src="/public/content/images/resume.svg")
-               div.menu-section
-                  p {{'RESUME'|translate}}
-         li(ng-class="{ 'resume-clicked': optionSelected == 'experience' }")
-            a.clickable(data-ng-click="experience()")
-               div.image-section
-                  img(data-ng-src="/public/content/images/experience.svg")
-               div.menu-section
-                  p {{'EXPERIENCE'|translate}}
-         li(ng-class="{ 'resume-clicked': optionSelected == 'contact' }")
-            a.clickable(data-ng-click="contact()")
-               div.image-section
-                  img(data-ng-src="/public/content/images/contact.svg")
-               div.menu-section
-                  p {{'CONTACT'|translate}}
+   div.bckground-left
+      div.profile-img(mm-hexagon-image, url-image="'/public/content/images/me.PNG'")
+      div.title
+         h2 Jorge Guerola Martínez
+         h3 Software Developer
+      div.menu-left
+         ul
+            li(ng-class="{ 'resume-clicked': optionSelected == 'about' }")
+               a.clickable(data-ng-click="about()")
+                  div.image-section
+                     img(data-ng-src="/public/content/images/about.svg")
+                  div.menu-section
+                     p {{'ABOUT_ME'|translate}}
+            li(ng-class="{ 'resume-clicked': optionSelected == 'resume' }")
+               a.clickable(data-ng-click="resume()")
+                  div.image-section
+                     img(data-ng-src="/public/content/images/resume.svg")
+                  div.menu-section
+                     p {{'RESUME'|translate}}
+            li(ng-class="{ 'resume-clicked': optionSelected == 'experience' }")
+               a.clickable(data-ng-click="experience()")
+                  div.image-section
+                     img(data-ng-src="/public/content/images/experience.svg")
+                  div.menu-section
+                     p {{'EXPERIENCE'|translate}}
+            li(ng-class="{ 'resume-clicked': optionSelected == 'skills' }")
+               a.clickable(data-ng-click="skills()")
+                  div.image-section
+                     img(data-ng-src="/public/content/images/skills.svg")
+                  div.menu-section
+                     p {{'SKILLS'|translate}}
+            li(ng-class="{ 'resume-clicked': optionSelected == 'contact' }")
+               a.clickable(data-ng-click="contact()")
+                  div.image-section
+                     img(data-ng-src="/public/content/images/contact.svg")
+                  div.menu-section
+                     p {{'CONTACT'|translate}}
+            li(ng-class="{ 'resume-clicked': optionSelected == 'contact' }")
+               a(data-ng-model="configActive")
+                  div.config-section
+                     img#img-config-lang.clickable(data-ng-src="/public/content/images/config.svg",data-ng-click="configActive=!configActive")
+               div(data-ng-show="configActive")
+                     div.arrow-up
+                     ul.config-lang
+                        li.clickable(data-ng-click="langEN()")
+                           p {{'EN'|translate}}
+                        li.clickable(data-ng-click="langES()", ng-class="{ 'arrow-lang': !currentLang }")
+                           p {{'ES'|translate}}

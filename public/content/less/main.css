@@ -6,14 +6,26 @@
 }
 #left-content {
   background: #2b2b2b;
+  box-shadow: 3px 0 3px rgba(51, 51, 51, 0.4);
   height: 100%;
 }
 #left-content .profile-img {
   text-align: center;
+  min-height: 200px;
 }
 #left-content .title {
   text-align: center;
   color: white;
+}
+#left-content .title h2 {
+  font-size: 26px !important;
+  padding: 0px 23px;
+}
+#left-content .title h3 {
+  font-size: 20px !important;
+  color: #D4D4D4;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 #left-content .menu-left {
   font-size: 16px;
@@ -55,68 +67,149 @@
 #left-content .resume-clicked {
   background-color: red !important;
 }
+#left-content .config-section {
+  background: #2b2b2b;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+#left-content .config-section img {
+  height: 30px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+#left-content .bckground-left {
+  background: #2b2b2b;
+  padding-top: 50px;
+}
+#left-content .config-lang {
+  margin-left: 60px;
+  margin-right: 60px;
+  background: #303030;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  border-bottom-width: 2px;
+}
+#left-content .config-lang li {
+  background-color: initial !important;
+  border: none !important;
+  height: 35px !important;
+}
+#left-content .config-lang p {
+  text-align: center;
+  color: #fff !important;
+  padding-top: 8px;
+  font-size: 14px;
+}
+#left-content .arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  margin-left: 139px;
+  border-bottom: 8px solid black;
+}
 #right-content {
-  background: white;
+  overflow: auto;
+  /* height: 100%; */
+  /* padding-top: 30px; */
+  /* padding-bottom: 30px; */
+  height: 100%;
+}
+.content-right-global {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 100%;
 }
 #about-section .resume-info {
   border-left: 2px solid green !important;
 }
+#about-section .interest {
+  float: left;
+  margin: 0px 10px 0px 10px;
+}
 #about-section,
+#resume-section,
 #experience-section,
-#contact-section {
+#contact-section,
+#skills-section {
   padding: 0px 30px 0px 30px;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid #d8d8d8;
+  border-bottom-width: 2px;
 }
 #about-section .resume-specific-section,
+#resume-section .resume-specific-section,
 #experience-section .resume-specific-section,
-#contact-section .resume-specific-section {
+#contact-section .resume-specific-section,
+#skills-section .resume-specific-section {
   margin-top: 20px;
 }
 #about-section .header,
+#resume-section .header,
 #experience-section .header,
-#contact-section .header {
+#contact-section .header,
+#skills-section .header {
   background: #434b51;
   color: #fff;
   padding: 2px 15px 2px 15px;
   margin: 0px;
 }
 #about-section .resume-category,
+#resume-section .resume-category,
 #experience-section .resume-category,
-#contact-section .resume-category {
+#contact-section .resume-category,
+#skills-section .resume-category {
   padding: 20px 0px 15px 0px;
 }
 #about-section .separator,
+#resume-section .separator,
 #experience-section .separator,
-#contact-section .separator {
+#contact-section .separator,
+#skills-section .separator {
   border-bottom: 1px solid #ebebeb;
   height: 20px;
   margin-bottom: 20px;
 }
 #about-section .resume-info,
+#resume-section .resume-info,
 #experience-section .resume-info,
-#contact-section .resume-info {
+#contact-section .resume-info,
+#skills-section .resume-info {
   border-left: 2px solid #53b7f9;
   padding-left: 15px;
 }
 #about-section .resume-info .date,
+#resume-section .resume-info .date,
 #experience-section .resume-info .date,
-#contact-section .resume-info .date {
+#contact-section .resume-info .date,
+#skills-section .resume-info .date {
   float: right;
   margin-bottom: 0px;
 }
 #about-section .resume-info h4,
+#resume-section .resume-info h4,
 #experience-section .resume-info h4,
-#contact-section .resume-info h4 {
+#contact-section .resume-info h4,
+#skills-section .resume-info h4 {
   margin-bottom: 9px;
   margin-top: 0px;
 }
 #about-section .resume-info .description,
+#resume-section .resume-info .description,
 #experience-section .resume-info .description,
-#contact-section .resume-info .description {
+#contact-section .resume-info .description,
+#skills-section .resume-info .description {
   margin-bottom: 0px;
 }
 #about-section .resume-info h5,
+#resume-section .resume-info h5,
 #experience-section .resume-info h5,
-#contact-section .resume-info h5 {
+#contact-section .resume-info h5,
+#skills-section .resume-info h5 {
   margin-top: 0px;
 }
 #experience-section .resume-info {
@@ -141,8 +234,17 @@
 #contact-section .follow-section img {
   height: 50px;
 }
+#skills-section .resume-info {
+  border-left: 2px solid saddlebrown !important;
+}
+#skills-section .interest {
+  float: left;
+  margin: 0px 5px 0px 5px;
+  padding: 0px 5px 0px 5px;
+}
 body {
   background-color: #E5E5E5;
+  font-family: 'Lato', sans-serif !important;
 }
 [ng\:cloak],
 [ng-cloak],
@@ -166,4 +268,16 @@ body {
 }
 a:hover {
   text-decoration: none;
+}
+h4 {
+  font-weight: 600;
+}
+h5 {
+  font-style: italic;
+}
+p.description {
+  line-height: 17px;
+}
+h3 {
+  font-size: 22px;
 }

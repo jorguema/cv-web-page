@@ -1,3 +1,7 @@
 #about-section .resume-info {
   border-left: 2px solid green !important;
 }
+#about-section .interest {
+  float: left;
+  margin: 0px 10px 0px 10px;
+}

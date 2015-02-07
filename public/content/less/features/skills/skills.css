@@ -1,0 +1,8 @@
+#skills-section .resume-info {
+  border-left: 2px solid saddlebrown !important;
+}
+#skills-section .interest {
+  float: left;
+  margin: 0px 5px 0px 5px;
+  padding: 0px 5px 0px 5px;
+}

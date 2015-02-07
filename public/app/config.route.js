@@ -41,6 +41,10 @@
                 url: '^/experience',
                 templateUrl: baseURL + "experience/experience"
             })
+            .state('app.skills', {
+                url: '^/skills',
+                templateUrl: baseURL + "skills/skills"
+            })
             .state('app.contact', {
                 url: '^/contact',
                 templateUrl: baseURL + "contact/contact"

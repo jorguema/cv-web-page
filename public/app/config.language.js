@@ -81,8 +81,90 @@
                 CONTACT_GITHUB:'GitHub',
                 CONTACT_LINKEDIN:'LinkedIn',
 
-                //TEST
-                hello : 'Hi (EN)'
+                //ABOUT
+                ABOUT_SECTION: 'About me',
+                ABOUT_ME_DESCRIPTION : "Software developer, enthusiast of new technologies, entrepreneur, techcrunch lover, team worker, constant, self taught, comprehensive and not a robot!",
+                ABOUT_ME_DESCRIPTION_2: "Be constant and make things right. That's what i apply to my life.",
+                ABOUT_ME_DESCRIPTION_3: "I really enjoy software development, specially when you have to do magic in deadlines. Joking apart, be a software developer is awesome, is like being the top of the food chain.",
+                ABOUT_ME_DESCRIPTION_4: "Single page applications, user experience, rest api and cloud platforms, that's what really defines me.",
+
+                INTERESTS_SECTIONS: 'Interests',
+                MUSIC: 'Music',
+                WEB_DEV: 'Web development',
+                TRILOGIES: 'Trilogies',
+                EXERCISE: 'Exercise',
+                TEA: 'Tea',
+                STARTUPS:'Startups',
+                UX_UI:'UX/UI',
+                PRODUCTIVITY:'Productivity',
+                CATS: 'Cats',
+
+                //SKILLS
+                SKILLS:'Skills',
+                FRONT_END: 'Front-end',
+                BACK_END : 'Back-end',
+                DB: 'Database',
+                WS: 'Web services',
+                OTHERS: 'Others',
+                CLOUD: 'Cloud',
+                MOBILE: 'Mobile',
+                SPA:'Single page applications',
+                BOWER: 'Bower',
+                GRUNT : 'Grunt',
+                    GULP : 'Gulp',
+                    Karma : 'Karma JS',
+                    ANGULAR : 'AngularJS',
+                    Javascript : 'Javascript',
+                    Jquery : 'Jquery',
+                    Less: 'Less',
+                    SASS: 'Sass',
+                    ASP_MVC: 'ASP.NET MVC',
+                    Phantom : 'PhantomJS',
+                    JADE: 'Jade',
+
+                    NODEJS : 'NodeJS',
+                    EXPRESS_JS : 'ExpressJS',
+                    WEB_API : 'ASP.NET Web API',
+                    EF : 'Entity Framework',
+                    Ninject : 'Ninject',
+                    LINQ : 'Linq',
+                    NUNIT : 'NUnit',
+                    SPRING : 'Spring',
+                    JPA : 'JPA',
+                    Hibernate : 'Hibernate',
+                    JUnit : 'JUnit',
+
+                SOAP:'SOAP',
+                REST:'REST',
+                XML: 'XML',
+                JSON: 'JSON',
+
+                    MONGODB: 'MongoDB',
+                    MYSQL: 'MySQL',
+                    ORACLE: 'Oracle',
+                    POSTGRES: 'PostgreSQL',
+                    SQLITE: 'SQLite',
+
+                    AZURE: 'Azure',
+                    HEROKU: 'Heroku',
+                    MONGOLAB: 'MongoLab',
+                    GITHUB: 'GitHub',
+                    BB:'Bitbucket',
+
+                WP:'Windows Phone',
+                ANDROID: 'Android',
+                XAMARIN: 'Xamarin',
+
+                GIT: 'Git',
+                SCRUM: 'Scrum',
+                XP:'Extreme programming',
+                PATER_DESIGN: 'Pattern design',
+                CD: 'Continuous deployment',
+                CI: 'Continuous integration',
+
+
+                EN: 'English',
+                ES: 'Spanish'
         });
         $translateProvider.preferredLanguage('en');
     }]);
