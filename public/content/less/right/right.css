@@ -1,12 +1,4 @@
-#right-content {
-  overflow: auto;
-  /* height: 100%; */
-  /* padding-top: 30px; */
-  /* padding-bottom: 30px; */
-  height: 100%;
-}
 .content-right-global {
   padding-top: 30px;
   padding-bottom: 30px;
-  height: 100%;
 }

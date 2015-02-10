@@ -1,6 +1,14 @@
+.menu-left-container {
+  position: fixed;
+  width: 315px;
+  z-index: 1;
+  top: 0px;
+  height: 100%;
+  overflow-y: auto;
+  box-shadow: 3px 0 3px rgba(51, 51, 51, 0.4);
+}
 #left-content {
   background: #2b2b2b;
-  box-shadow: 3px 0 3px rgba(51, 51, 51, 0.4);
   height: 100%;
 }
 #left-content .profile-img {
@@ -55,11 +63,23 @@
 }
 #left-content .image-section img {
   height: 30px;
+  width: 30px;
   margin-left: 20px;
   margin-top: 8px;
 }
-#left-content .resume-clicked {
-  background-color: red !important;
+#left-content .image-section div {
+  max-height: 47px;
+}
+#left-content .image-section div .special-img-menu {
+  position: relative;
+  top: -38px;
+}
+#left-content .image-section .graduation-img {
+  margin-left: 22px !important;
+}
+#left-content .image-section .experience-img {
+  height: 28px !important;
+  width: 28px !important;
 }
 #left-content .config-section {
   background: #2b2b2b;

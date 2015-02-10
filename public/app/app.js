@@ -5,7 +5,7 @@
         ////Angular modules
         //'ngRoute',
         //'ngResource',
-        //'ngAnimate',
+        'ngAnimate',
         //
         ////Custom Directives
         //'bpAudioPlayer',
