@@ -16,19 +16,19 @@
   width: 100%;
 }
 .sliding-middle-out.about:after {
-  background: green !important;
+  background: #b3c833 !important;
 }
 .sliding-middle-out.resume:after {
-  background: blue !important;
+  background: #1aa1e1 !important;
 }
 .sliding-middle-out.experience:after {
-  background: red !important;
+  background: #ce5043 !important;
 }
 .sliding-middle-out.skills:after {
-  background: saddlebrown !important;
+  background: #3f5ca9 !important;
 }
 .sliding-middle-out.contact:after {
-  background: yellow !important;
+  background: #fb8521 !important;
 }
 .stagger-list.ng-enter-stagger,
 .stagger-list.ng-leave-stagger {
@@ -247,6 +247,25 @@
   -ms-animation-fill-mode: forwards;
   -o-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
+}
+#img-config-lang.animation-target-add {
+  -webkit-animation: animation 2000ms linear both;
+  animation: animation 2000ms linear both;
+}
+#img-config-lang.animation-target-remove {
+  -webkit-animation: animation2 2000ms linear both;
+  animation: animation2 2000ms linear both;
+}
+.special-img-menu {
+  opacity: 0.8;
+}
+.special-img-menu.ng-hide-add.ng-hide-add-active,
+.special-img-menu.ng-hide-remove.ng-hide-remove-active {
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+.special-img-menu.ng-hide {
+  opacity: 0;
 }
 @-webkit-keyframes animation {
   0% {
