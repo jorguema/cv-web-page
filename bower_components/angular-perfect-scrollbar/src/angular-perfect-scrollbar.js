@@ -66,36 +66,49 @@ angular.module('perfect_scrollbar', []).directive('perfectScrollbar',
           update();
         }
 
-        document.getElementById("option1").onclick = function() {
-          $($elem).scrollTop(0);
-          $timeout(function() {
-            update();
-          },1000);
-        }
-        document.getElementById("option2").onclick = function() {
-          $($elem).scrollTop(0);
-          $timeout(function() {
-            update();
-          },1000);
-        }
-        document.getElementById("option3").onclick = function() {
-          $($elem).scrollTop(0);
-          $timeout(function() {
-            update();
-          },1000);
-        }
-        document.getElementById("option4").onclick = function() {
-          $($elem).scrollTop(0);
-          $timeout(function() {
-            update();
-          },1000);
-        }
-        document.getElementById("option5").onclick = function() {
-          $($elem).scrollTop(0);
-          $timeout(function() {
-            update();
-          },1000);
-        }
+        var option1 = document.getElementById("option1");
+        if(option1!==undefined)
+          document.getElementById("option1").onclick = function() {
+            $($elem).scrollTop(0);
+            $timeout(function() {
+              update();
+            },1000);
+          }
+        var option2 = document.getElementById("option2");
+        if(option2!==undefined)
+          document.getElementById("option2").onclick = function() {
+            $($elem).scrollTop(0);
+            $timeout(function() {
+              update();
+            },1000);
+          }
+
+        var option3 = document.getElementById("option3");
+        if(option3!==undefined)
+          document.getElementById("option3").onclick = function() {
+            $($elem).scrollTop(0);
+            $timeout(function() {
+              update();
+            },1000);
+          }
+
+        var option4 = document.getElementById("option4");
+        if(option4!==undefined)
+          document.getElementById("option4").onclick = function() {
+            $($elem).scrollTop(0);
+            $timeout(function() {
+              update();
+            },1000);
+          }
+
+        var option5 = document.getElementById("option5");
+          if(option5!==undefined)
+          document.getElementById("option5").onclick = function() {
+            $($elem).scrollTop(0);
+            $timeout(function() {
+              update();
+            },1000);
+          }
       },100);
 
       //document.getElementById("main-scroll").onmousemove = function() {
