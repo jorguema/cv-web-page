@@ -5,10 +5,15 @@ html(data-ng-app="app")
    head
       html(lang="en")
       title= 'Jorge Guerola Martínez'
+      link(rel="shortcut icon" href="/public/content/images/favicon.ico")
       link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic')
-      link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
       link(rel='stylesheet', href='/bower_components/perfect-scrollbar/min/perfect-scrollbar.min.css')
-      link(rel='stylesheet', href='/public/content/less/main.css')
+      if environment == "development"
+         link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
+         link(rel='stylesheet', href='/public/content/less/main.css')
+      else
+         link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+         link(rel='stylesheet', href='/public/dist/main.min.css')
    body(data-ng-cloak="")
       block main-content
       include scripts

@@ -6,7 +6,7 @@ module.exports={
         rootPath: rootPath,
         port: process.env.PORT || 3030
     },
-    staging:{
+    production:{
         rootPath: rootPath,
         port: process.env.PORT || 80
     }

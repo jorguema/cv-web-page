@@ -22,7 +22,8 @@ module.exports= function(app, config){
 //        app.use(express.json());
 //        app.use(express.urlencoded());
 //        app.use(express.methodOverride());
-        app.use(require('less-middleware')(path.join(config.rootPath, '/public')));
+    app.use(favicon(path.join(config.rootPath, '/public/content/images/favicon.ico')));
+    app.use(require('less-middleware')(path.join(config.rootPath, '/public')));
         app.use('/bower_components',  express.static((path.join(config.rootPath, '/bower_components'))));
         app.use('/public',express.static(path.join(config.rootPath, '/public')));
         app.use('/vendor',express.static(path.join(config.rootPath, '/public/vendor')));
