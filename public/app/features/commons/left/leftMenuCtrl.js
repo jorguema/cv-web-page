@@ -52,7 +52,6 @@
         $scope.configActive = false;
 
         $document.bind('click', function(event){
-            console.log(event.target);
             if($scope.configActive)
                 if(event!=null && event.target!=undefined && event.target.id!=undefined)
                     if(event.target.id != "img-config-lang") {

@@ -6,6 +6,7 @@
         //'ngRoute',
         //'ngResource',
         'ngAnimate',
+        'perfect_scrollbar',
         //
         ////Custom Directives
         //'bpAudioPlayer',

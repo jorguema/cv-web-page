@@ -30,24 +30,223 @@
 .sliding-middle-out.contact:after {
   background: yellow !important;
 }
-#img-config-lang.animation-target-add {
-  -webkit-animation: animation 2000ms linear both;
-  animation: animation 2000ms linear both;
+.stagger-list.ng-enter-stagger,
+.stagger-list.ng-leave-stagger {
+  -webkit-transition-delay: 0.1s;
+  -moz-transition-delay: 0.1s;
+  -ms-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
 }
-#img-config-lang.animation-target-remove {
-  -webkit-animation: animation2 2000ms linear both;
-  animation: animation2 2000ms linear both;
-}
-.special-img-menu {
-  opacity: 0.8;
-}
-.special-img-menu.ng-hide-add.ng-hide-add-active,
-.special-img-menu.ng-hide-remove.ng-hide-remove-active {
-  -webkit-transition: all linear 0.5s;
-  transition: all linear 0.5s;
-}
-.special-img-menu.ng-hide {
+.stagger-list.ng-enter {
+  -webkit-transition: 0.2s linear all;
+  -moz-transition: 0.2s linear all;
+  -ms-transition: 0.2s linear all;
+  -o-transition: 0.2s linear all;
+  transition: 0.2s linear all;
+  -ms-opacity: 0;
   opacity: 0;
+  -webkit-transform: scale(1.15) !important;
+  transform: scale(1.15) !important;
+}
+.stagger-list.ng-enter.ng-enter-active {
+  -ms-opacity: 1;
+  opacity: 1;
+  -webkit-transform: scale(1) !important;
+  transform: scale(1) !important;
+}
+/*#region Shuffle Animation*/
+.shuffle-animation.ng-enter,
+.shuffle-animation.ng-leave {
+  position: relative;
+  width: 617px !important;
+}
+.shuffle-animation.ng-enter {
+  -webkit-transition: all linear 0.35s;
+  -moz-transition: all linear 0.35s;
+  -o-transition: all linear 0.35s;
+  transition: all linear 0.35s;
+}
+.shuffle-animation.ng-enter,
+.shuffle-animation.ng-leave.ng-leave-active {
+  left: 1em;
+  opacity: 0;
+}
+.shuffle-animation.ng-leave,
+.shuffle-animation.ng-enter.ng-enter-active {
+  left: 0;
+  opacity: 1;
+}
+/*#endregion */
+.ghost {
+  animation: float 3s ease-out infinite;
+  -webkit-animation: float 3s ease-out infinite;
+}
+@keyframes float {
+  50% {
+    transform: translate(0, 10px);
+  }
+}
+@-webkit-keyframes float {
+  50% {
+    transform: translate(0, 10px);
+  }
+}
+@-moz-keyframes float {
+  50% {
+    transform: translate(0, 10px);
+  }
+}
+.shadowFrame {
+  margin-top: 5px;
+  cursor: default;
+}
+.shadowFrame svg {
+  cursor: pointer;
+}
+.shadow {
+  animation: shrink 3s ease-out infinite;
+  -webkit-animation: shrink 3s ease-out infinite;
+  transform-origin: center center;
+}
+.shadow ellipse {
+  transform-origin: center center;
+}
+@-webkit-keyframes shrink {
+  0% {
+    width: 50px;
+    margin: 0 5%;
+  }
+  50% {
+    width: 30px;
+    margin: 0 18%;
+  }
+  100% {
+    width: 50px;
+    margin: 0 5%;
+  }
+}
+@-moz-keyframes shrink {
+  0% {
+    width: 50px;
+    margin: 0 5%;
+  }
+  50% {
+    width: 30px;
+    margin: 0 18%;
+  }
+  100% {
+    width: 50px;
+    margin: 0 5%;
+  }
+}
+@keyframes shrink {
+  0% {
+    width: 50px;
+    margin: 0 5%;
+  }
+  50% {
+    width: 30px;
+    margin: 0 18%;
+  }
+  100% {
+    width: 50px;
+    margin: 0 5%;
+  }
+}
+@-moz-keyframes opacity1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes opacity1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes opacity1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.opacitydiv1 {
+  opacity: 0;
+  -webkit-animation: opacity1 0.3s 0.15s;
+  -moz-animation: opacity1 0.3s 0.15s;
+  -ms-animation: opacity1 0.3s  0.15s;
+  -o-animation: opacity1 0.3s  0.15s;
+  animation: opacity1 0.3s  0.15s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.opacitydiv2 {
+  opacity: 0;
+  -webkit-animation: opacity1 0.3s  0.20s;
+  -moz-animation: opacity1 0.3s  0.20s;
+  -ms-animation: opacity1 0.3s 0.20s;
+  -o-animation: opacity1 0.3s  0.20s;
+  animation: opacity1 0.3s 0.20s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.opacitydiv3 {
+  opacity: 0;
+  -webkit-animation: opacity1 0.3s 0.25s;
+  -moz-animation: opacity1 0.3s 0.25s;
+  -ms-animation: opacity1 0.3s 0.25s;
+  -o-animation: opacity1 0.3s 0.25s;
+  animation: opacity1 0.3s 0.25s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.opacitydiv4 {
+  opacity: 0;
+  -webkit-animation: opacity1 0.3s 0.30s;
+  -moz-animation: opacity1 0.3s 0.30s;
+  -ms-animation: opacity1 0.3s  0.30s;
+  -o-animation: opacity1 0.3s  0.30s;
+  animation: opacity1 0.3s  0.30s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.opacitydiv5 {
+  opacity: 0;
+  -webkit-animation: opacity1 0.3s 0.35s;
+  -moz-animation: opacity1 0.3s 0.35s;
+  -ms-animation: opacity1 0.3s 0.35s;
+  -o-animation: opacity1 0.3s 0.35s;
+  animation: opacity1 0.3s 0.35s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 @-webkit-keyframes animation {
   0% {
