@@ -48,14 +48,14 @@ div#left-content(data-ng-controller="leftMenuCtrl")
                         img.special-img-menu(data-ng-src="/public/content/images/contactme2.svg", data-ng-show="optionSelected == 'contact'")
                   div.menu-section
                      p {{'CONTACT'|translate}}
-            li(ng-class="{ 'resume-clicked': optionSelected == 'contact'}")
-               a(data-ng-model="configActive")
-                  div.config-section
-                     img#img-config-lang.clickable(ng-class="{ 'animation-target': configActive}", data-ng-src="/public/content/images/config.svg",data-ng-click="configActive=!configActive")
-               div(data-ng-show="configActive")
-                     div.arrow-up
-                     ul.config-lang
-                        li.clickable(data-ng-click="langEN()")
-                           p {{'EN'|translate}}
-                        li.clickable(data-ng-click="langES()", ng-class="{ 'arrow-lang': !currentLang }")
-                           p {{'ES'|translate}}
+            //li(ng-class="{ 'resume-clicked': optionSelected == 'contact'}")
+            //   a(data-ng-model="configActive")
+            //      div.config-section
+            //         img#img-config-lang.clickable(ng-class="{ 'animation-target': configActive}", data-ng-src="/public/content/images/config.svg",data-ng-click="configActive=!configActive")
+            //   div(data-ng-show="configActive")
+            //         div.arrow-up
+            //         ul.config-lang
+            //            li.clickable(data-ng-click="langEN()")
+            //               p {{'EN'|translate}}
+            //            li.clickable(data-ng-click="langES()", ng-class="{ 'arrow-lang': !currentLang }")
+            //               p {{'ES'|translate}}
