@@ -102,7 +102,7 @@
             BOWER: 'Bower',
             GRUNT : 'Grunt',
             GULP : 'Gulp',
-            Karma : 'Karma JS',
+            Karma : 'KarmaJS',
             ANGULAR : 'AngularJS',
             Javascript : 'Javascript',
             Jquery : 'Jquery',
@@ -164,7 +164,7 @@
                 RESUME: 'Resume',
                 EXPERIENCE: 'Experience',
                 CONTACT : 'Contact',
-
+ 
                 //RESUME
                 EDUCATION_SECTION: 'Education',
                 MASTER: "Master's degree in Software Engineering, Formal Methods and Information Systems",
@@ -210,11 +210,12 @@
                 MONKEYS: 'A Million Monkeys',
                 MONKEYS_DATE :'Dec 2013 - Present',
                 MONKEYS_ROLE: 'Full stack developer',
-                MONKEYS_DESCRIPTION:'DSIC/PROS Department focused on the study of the following areas:',
+                MONKEYS_DESCRIPTION:'Software development company based on cloud solutions specialising in online marketing solutions.',
                 BANDPOINTER: 'Content Pointers SL',
                 BANDPOINTER_DATE :'Mar 2014 - Jan 2015',
                 BANDPOINTER_ROLE: 'Co-founder',
-                BANDPOINTER_DESCRIPTION:'Music discovery platform for emerging bands. Discover new music randomly or by genres, between 10 and 12 seconds.',
+                BANDPOINTER_DESCRIPTION: 'Music discovery platform for emerging bands. Discover new music randomly or by genres, between 10 and 12 seconds.',
+                
 
                 //CONTACT
                 CONTACT_INFO_SECTION:'Contact info',
@@ -254,12 +255,16 @@
                 OTHERS: 'Others',
                 CLOUD: 'Cloud',
                 MOBILE: 'Mobile',
-                SPA:'Single page applications',
+                SPA: 'Single page applications',
+                REACT: 'ReactJS',
+                WEB_COMPONENTS: 'Web components',
+                TYPESCRIPT: 'TypeScript',
                 BOWER: 'Bower',
                 GRUNT : 'Grunt',
                     GULP : 'Gulp',
-                    Karma : 'Karma JS',
-                    ANGULAR : 'AngularJS',
+                    Karma : 'KarmaJS',
+                    ANGULAR: 'AngularJS',
+                    ANGULAR2 : 'AngularJS 2',
                     Javascript : 'Javascript',
                     Jquery : 'Jquery',
                     Less: 'Less',
@@ -278,7 +283,8 @@
                     SPRING : 'Spring',
                     JPA : 'JPA',
                     Hibernate : 'Hibernate',
-                    JUnit : 'JUnit',
+                    JUnit: 'JUnit',
+                    SIGNALR: 'SignalR',
 
                 SOAP:'SOAP',
                 REST:'REST',
@@ -300,6 +306,7 @@
                 WP:'Windows Phone',
                 ANDROID: 'Android',
                 XAMARIN: 'Xamarin',
+                IONIC: 'Ionic',
 
                 GIT: 'Git',
                 SCRUM: 'Scrum',
@@ -307,6 +314,7 @@
                 PATER_DESIGN: 'Pattern design',
                 CD: 'Continuous deployment',
                 CI: 'Continuous integration',
+                GOOD_PRACTICES: 'Good practices',                
 
 
                 EN: 'English',

@@ -16,15 +16,7 @@ div#left-content(data-ng-controller="leftMenuCtrl")
                         img.special-img-menu(data-ng-src="/public/content/images/administrator2.svg", data-ng-show="optionSelected == 'about'")
                   div.menu-section
                      p {{'ABOUT_ME'|translate}}
-            li#option2.sliding-middle-out.resume(ng-class="{ 'resume-clicked': optionSelected == 'resume' }")
-               a.clickable(data-ng-click="resume()")
-                  div.image-section
-                     div
-                        img.graduation-img(data-ng-src="/public/content/images/graduation.svg")
-                        img.graduation-img.special-img-menu(data-ng-src="/public/content/images/graduation2.svg", data-ng-show="optionSelected == 'resume'")
-                  div.menu-section
-                     p {{'RESUME'|translate}}
-            li#option3.sliding-middle-out.experience(ng-class="{ 'resume-clicked': optionSelected == 'experience' }")
+             li#option3.sliding-middle-out.experience(ng-class="{ 'resume-clicked': optionSelected == 'experience' }")
                a.clickable(data-ng-click="experience()")
                   div.image-section
                      div
@@ -32,6 +24,14 @@ div#left-content(data-ng-controller="leftMenuCtrl")
                         img.experience-img.special-img-menu(data-ng-src="/public/content/images/briefcase2.svg", data-ng-show="optionSelected == 'experience'")
                   div.menu-section
                      p {{'EXPERIENCE'|translate}}
+            li#option2.sliding-middle-out.resume(ng-class="{ 'resume-clicked': optionSelected == 'resume' }")
+               a.clickable(data-ng-click="resume()")
+                  div.image-section
+                     div
+                        img.graduation-img(data-ng-src="/public/content/images/graduation.svg")
+                        img.graduation-img.special-img-menu(data-ng-src="/public/content/images/graduation2.svg", data-ng-show="optionSelected == 'resume'")
+                  div.menu-section
+                     p {{'RESUME'|translate}}           
             li#option4.sliding-middle-out.skills(ng-class="{ 'resume-clicked': optionSelected == 'skills' }")
                a.clickable(data-ng-click="skills()")
                   div.image-section
