@@ -210,7 +210,7 @@
                 MONKEYS: 'A Million Monkeys',
                 MONKEYS_DATE :'Dec 2013 - Present',
                 MONKEYS_ROLE: 'Full stack developer',
-                MONKEYS_DESCRIPTION:'Software development company based on cloud solutions specialising in online marketing solutions.',
+                MONKEYS_DESCRIPTION:'Software development company based on cloud solutions specialising in online marketing.',
                 BANDPOINTER: 'Content Pointers SL',
                 BANDPOINTER_DATE :'Mar 2014 - Jan 2015',
                 BANDPOINTER_ROLE: 'Co-founder',
